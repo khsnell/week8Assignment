@@ -1,0 +1,54 @@
+body {
+    padding: 25px;
+    margin: 30px 10px 0px;
+    text-align: center;
+    background-color: #e0e09d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#homepage {
+    padding: 0px 10px 10px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+#navigation {
+    padding: 20px;
+    background-color: #f6f7ac;
+
+}
+
+#navigation li {
+    display: inline;
+    padding: 10px 40px;
+}
+
+#navigation a {
+    text-decoration: none;
+}
+
+#about, #gangpic, #contact {
+    width: 700px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.gang {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.gang td {
+    padding-top: 20px;
+}
+
+.gang img {
+    width: 100px;
+}
+
+.gang tr:nth-child(even) td {
+    background-color: #e4f56a;
+    padding: 20px;
+}
